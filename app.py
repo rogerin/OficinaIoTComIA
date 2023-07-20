@@ -52,7 +52,7 @@ while True:
     objeto = str(class_name[2:]).strip()
 
     print(objeto)
-    if objeto == "pneu":
+    if objeto == "pneu": 
         print("ou, eu sou um pneu")
         ser.write(b'1')
     if objeto == "lego":
